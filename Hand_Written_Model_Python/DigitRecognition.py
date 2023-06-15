@@ -25,11 +25,12 @@ import tensorflow as tf
 # model.add(tf.keras.layers.Flatten(input_shape=(28,28)))
 # # basic neural network layer, where each neuron is connected 
 # # to each neuron of other layers
-# model.add(tf.keras.layers.Dense(128, activation='relu'))
+# AF = 'tanh' # This is the type of activation function I want to use
+# model.add(tf.keras.layers.Dense(128, activation=AF))
 #     # for activation, you can also put it in formaat: 
 #         # tf.nn.<Activation function
 #     # relu means rectify linear unit
-# model.add(tf.keras.layers.Dense(128, activation='relu'))
+# model.add(tf.keras.layers.Dense(128, activation=AF))
 #     # to add amother layer
 # model.add(tf.keras.layers.Dense(10, activation='softmax'))
 #     # This is to make this layer represent 10 digits (0-9)
