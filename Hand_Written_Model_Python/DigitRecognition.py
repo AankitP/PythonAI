@@ -39,7 +39,7 @@ import tensorflow as tf
 # model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 # # to train the model
-# model.fit(x_train, y_train, epochs=3)
+# model.fit(x_train, y_train, epochs=20)
 #     # epoch is the amount of times that the model will 
 #     # see the data repeatedly
 
